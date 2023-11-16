@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fabb00;
+}
+
+.center-text {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.agency {
+    color: #e4003a;
+}
+.student {
+    color: #004f9f;
+}
+.item {
+    width: 30%;
+    margin: 1em;
+}

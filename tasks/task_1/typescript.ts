@@ -1,4 +1,4 @@
-const starobrnoMedium = {
+const starobrnoMedium: TStarobrnoMedium= {
   name: 'Medium',
   volume: 0.5,
   alc: 4.7,
@@ -17,4 +17,16 @@ const starobrnoMedium = {
       return true;
     }
   }
+};
+
+export type TStarobrnoMedium = {
+  name: string;
+  volume: number;
+  alc: number;
+  drunkedMe: (pieces: number) => boolean;
+  onStock: boolean;
+  ingredients: {
+    [key: string]: number | string;
+  };
+  iGonnaPay: () => boolean | undefined;
 };
