@@ -31,5 +31,5 @@
 }
 
 .cardLink {
-    @apply text-xs  text-blue hover:text-blue-light;
+    @apply text-xs  text-blue hover:text-blue-dark-1;
 }
