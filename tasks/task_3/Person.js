@@ -9,4 +9,4 @@ export default class Person {
   }
 }
 
-// run jest for test
+// run jest command for test

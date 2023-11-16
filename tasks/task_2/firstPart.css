@@ -21,9 +21,11 @@ body, html {
 .agency {
     color: #e4003a;
 }
+
 .student {
     color: #004f9f;
 }
+
 .item {
     width: 30%;
     margin: 1em;

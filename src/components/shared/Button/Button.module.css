@@ -1,9 +1,9 @@
 .button {
+  @apply min-w-[60px] min-h-[40px];
   @apply text-black font-normal cursor-pointer bg-white;
   @apply border-black border-solid border rounded-sm;
   @apply px-4 py-2;
   @apply transition duration-default ease-in-out;
-
   @apply hover:bg-gray-light-3 hover:text-gray border-gray;
   @apply disabled:cursor-not-allowed disabled:bg-gray-light-2 disabled:border-gray disabled:text-gray;
 }

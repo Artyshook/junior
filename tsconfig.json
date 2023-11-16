@@ -2,6 +2,10 @@
 "compilerOptions": {
     "allowJs": true,
     "baseUrl": "./src",
+    "paths": {
+        "@/*": ["./*"],
+        "Components/*": ["components/*"]
+    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
@@ -13,9 +17,6 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
-    "paths": {
-    "@/*": ["./*"],
-    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,

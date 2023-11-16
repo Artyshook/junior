@@ -1,0 +1,35 @@
+.card {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-light duration-300
+}
+
+.cardBody {
+    @apply p-4;
+}
+
+.cardTitle {
+    @apply text-lg font-semibold mb-1 flex items-center;
+}
+
+.cardDetail {
+    @apply text-xs text-gray mb-1 flex items-center;
+}
+
+.icon {
+    @apply inline-block mr-2 align-middle;
+}
+
+.mail-icon {
+    @apply w-4 h-4;
+}
+
+.phone-icon {
+    @apply w-4 h-4;
+}
+
+.person-icon {
+    @apply w-6 h-6;
+}
+
+.cardLink {
+    @apply text-xs  text-blue hover:text-blue-light;
+}
