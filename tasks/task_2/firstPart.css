@@ -1,3 +1,7 @@
+/*
+  nesedí odsazení, nastaveno je na 2 mezery (viz .editorconfig a mnou vytvořené soubory)
+  Chybí prázdný řádek na konci souboru
+*/
 body, html {
     height: 100%;
     margin: 0;
@@ -26,6 +30,9 @@ body, html {
     color: #004f9f;
 }
 
+/*
+    Nevidím to v kódu
+*/
 .item {
     width: 30%;
     margin: 1em;

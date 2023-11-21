@@ -26,7 +26,9 @@ export type TStarobrnoMedium = {
   drunkedMe: (pieces: number) => boolean;
   onStock: boolean;
   ingredients: {
+    // Record<string, number | string> je ekvivalentní zápis pro:
     [key: string]: number | string;
   };
   iGonnaPay: () => boolean | undefined;
+  // Chybí řádek na konci souboru
 };

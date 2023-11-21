@@ -1,3 +1,7 @@
+/*
+  Nebyl by zde lepší flex?
+  Chybí řádek na konci souboru.
+*/
 .list {
     @apply grid grid-cols-1 md:grid-cols-3 gap-4;
 }

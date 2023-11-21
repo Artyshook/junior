@@ -18,6 +18,9 @@
     @apply inline-block mr-2 align-middle;
 }
 
+/*
+  Proč stejné vlastnosti tříd mail-icon a phone-icon nejsou v třídě .icon?
+*/
 .mail-icon {
     @apply w-4 h-4;
 }
@@ -30,6 +33,10 @@
     @apply w-6 h-6;
 }
 
+/*
+  barva zvolená na hover není dostatečně kontrastní,
+  takže to může způsobit problémy při používání osobami s handicapem
+*/
 .cardLink {
     @apply text-xs  text-blue hover:text-blue-dark-1;
 }

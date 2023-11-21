@@ -1,3 +1,7 @@
+// Podle pravidel mají intefaces začínat písmenem I
+// Pro popis datových struktur je vhodnější type
+// Interface je vhodnější pro funkce a třídy
+// odsazení má být 2 mezery
 export interface AddressType {
     street: string;
     suite: string;

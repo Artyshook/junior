@@ -7,3 +7,8 @@ describe('Person', () => {
   });
 
 });
+
+/*
+  Pochvala za použití testu!
+  Nicméně, když už jste instaloval testovací knihovnu, tak by bylo dobré ji použít - vytvořit script v package.json, který spustí testy.
+*/
