@@ -17,6 +17,7 @@ const Home = (): ReactElement => {
     <main className={style.home}>
       <h1>User list</h1>
       {/* variant="secondary" onClick={fetchUsers} */}
+      {/* co když to nahrávání bude dlouho trvat? // uživatel bude klikat jak zběsilej */}
         <Button variant={"secondary"} onClick={() => fetchUsers()}>
           {/* {loading ? 'Loading...' : <Icon iconName="download"/>} */}
             {loading ? "Loading..." : <Icon iconName={"download"}/>}
