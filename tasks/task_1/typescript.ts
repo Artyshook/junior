@@ -25,8 +25,6 @@ export type TStarobrnoMedium = {
   alc: number;
   drunkedMe: (pieces: number) => boolean;
   onStock: boolean;
-  ingredients: {
-    [key: string]: number | string;
-  };
+  ingredients: Record<string, number | string>;
   iGonnaPay: () => boolean | undefined;
 };

@@ -1,25 +1,25 @@
-import {UserType} from "Components/shared/UserList/types";
+import {ReactElement} from 'react';
+import Icon from '../../Icon/Icon';
+import {IUser} from '../types';
 import style from './UserCard.module.css';
-import {Icon} from "Components/shared";
 
 interface UserCardProps {
-    user: UserType
+    user: IUser
 }
 
-export const UserCard = ({ user }: UserCardProps) => {
-    return (
+export const UserCard = ({ user }: UserCardProps): ReactElement => (
         <div className={style.card}>
             <div className={style.cardBody}>
                 <h2 className={style.cardTitle}>
-                    <Icon iconName="person" className={`${style.icon} ${style.personIcon}`} />
+                    <Icon iconName="person" className={`${style.icon} ${style.icon}`} />
                     {user.name}
                 </h2>
                 <p className={style.cardDetail}>
-                    <Icon iconName="mail" className={`${style.icon} ${style.mailIcon}`} />
+                    <Icon iconName="mail" className={`${style.icon} ${style.icon}`} />
                     email: {user.email}
                 </p>
                 <p className={style.cardDetail}>
-                    <Icon iconName="call" className={`${style.icon} ${style.phoneIcon}`} />
+                    <Icon iconName="call" className={`${style.icon} ${style.icon}`} />
                     tel: {user.phone}
                 </p>
                 <a
@@ -32,6 +32,5 @@ export const UserCard = ({ user }: UserCardProps) => {
                 </a>
             </div>
         </div>
-    );
-};
+);
 

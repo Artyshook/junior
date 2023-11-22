@@ -11,7 +11,8 @@
     "start": "vite",
     "build": "npm run lint && vite build",
     "prepare": "husky install",
-    "preview": "npm run build && vite preview"
+    "preview": "npm run build && vite preview",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
